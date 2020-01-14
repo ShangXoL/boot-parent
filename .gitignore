@@ -1,6 +1,4 @@
 # Project exclude paths
-/shang-api/target/
-/shang-common/target/
-/shang-domain/target/
-/shang-mapper/target/
-/shang-service/target/
+target
+*.iml
+.idea
