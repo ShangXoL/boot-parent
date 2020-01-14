@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shang-service" />
+        <module name="shang-common" />
+        <module name="shang-mapper" />
+        <module name="shang-redis" />
+        <module name="shang-domain" />
+        <module name="shang-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="shang-app" target="1.8" />
+      <module name="shang-redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="shang-api" options="-parameters" />
+      <module name="shang-app" options="-parameters" />
+      <module name="shang-common" options="-parameters" />
+      <module name="shang-domain" options="-parameters" />
+      <module name="shang-mapper" options="-parameters" />
+      <module name="shang-redis" options="-parameters" />
+      <module name="shang-service" options="-parameters" />
+    </option>
+  </component>
+</project>

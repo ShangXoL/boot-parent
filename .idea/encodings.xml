@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-api/src/main/resources/application-dev.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shang-service" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
