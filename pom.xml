@@ -9,16 +9,17 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>shang</groupId>
-    <artifactId>shang-parent</artifactId>
+    <groupId>com.shang.boot</groupId>
+    <artifactId>boot-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>shang-common</module>
-        <module>shang-domain</module>
-        <module>shang-mapper</module>
-        <module>shang-service</module>
-        <module>shang-api</module>
+        <module>boot-common</module>
+        <module>boot-domain</module>
+        <module>boot-mapper</module>
+        <module>boot-service</module>
+        <module>boot-api</module>
+        <module>boot-redis</module>
     </modules>
 
     <properties>
