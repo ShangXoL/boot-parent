@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import shang.controller.base.BaseController;
 import shang.service.user.SysUserService;
-import shang.service.user.impl.SysUserServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -32,6 +31,12 @@ public class SysUserController extends BaseController {
      */
     @GetMapping("suc")
     public String suc(){
+        String loginName="xiaoliang.shang";
+        IPage<SysUserEntity> page=new Page<>();
+        page.setCurrent(5);
+        page.setSize(10);
+        IPage<SysUserEntity> iPage= sysUserService.getSysUserByLoginName(page,loginName);
+        System.out.println(iPage);
         return "true";
     }
 
@@ -60,4 +65,6 @@ public class SysUserController extends BaseController {
         page=sysUserService.page(page);
         return page;
     }
+
+
 }

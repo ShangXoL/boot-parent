@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="shang.mapper.user.SysUserDao">
+    <select id="getSysUserByLoginName" resultType="domain.user.SysUserEntity" parameterType="String">
+    select * from sys_user where login_name = #{loginName}
+  </select>
+    <select id="getSysUserByLoginName2" resultType="domain.user.SysUserEntity" parameterType="String">
+    select * from sys_user where login_name = #{loginName}
+  </select>
+
+</mapper>
